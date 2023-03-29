@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+.contenedor{
+    height: 100%;
+    width: 100%;
+    display: flex;
+
+}
+.contenedor_img{
+    height: 100%;
+    width: 50%;
+    background-color: rgb(13, 13, 19);
+    display: grid;
+    gap: 20px;
+    padding: 20px;
+    grid-template-areas: 
+    'foto1 foto2 foto3'
+    'foto1 foto2 foto3' 
+    'foto4  foto2 foto6'
+    'foto4 foto8 foto6'
+    'foto7 foto8 foto9'
+    'foto7 foto5 foto9'
+    'foto7 foto5  foto9';
+}
+.foto{
+    border-radius: 4px;
+}
+.foto1{
+    grid-area: foto1;
+    background-image: url(./img/img1.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.foto2{
+    grid-area: foto2;
+    background-image: url(./img/img2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.foto3{
+    grid-area: foto3;
+    background-image: url(./img/img3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.foto4{
+    grid-area: foto4;
+    background-image: url(./img/img4.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.foto5{
+    grid-area: foto5;
+    background-image: url(./img/img8.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.foto6{
+    grid-area: foto6;
+    background-image: url(./img/img6.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.foto7{
+    grid-area: foto7;
+    background-image: url(./img/img7.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.foto8{
+    grid-area: foto8;
+    background-image: url(./img/img5.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.foto9{
+    grid-area: foto9;
+    background-image: url(./img/img9.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.wel{
+    height: 100%;
+    width: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
